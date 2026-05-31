@@ -136,7 +136,7 @@ const services = [
     label: "Silver Club",
     summary: "以银龄文社和银龄焕彩为双核心，链接文化学习、兴趣社交、沙龙讲师和银龄达人资源，激发长者持续参与社区生活。",
     scenario: "适用于希望参与社区学习、兴趣社交、文化活动、知识分享、技能展示和社区讲师培育的中老年群体。",
-    image: "assets/culture-club-detail.png",
+    image: null,
     intro: "银龄俱乐部以精神文化养老和银龄价值再发现为核心，一方面通过银龄文社提供稳定的学习、兴趣和社交活动，另一方面通过银龄焕彩挖掘社区长者的知识、经验、技能和生活美学能力，让长者从活动参与者进一步成为课程分享者、生活体验官和社区内容共创者。",
     values: [
       "丰富长者精神文化生活，减少孤独感。",
@@ -147,6 +147,7 @@ const services = [
     groups: [
       {
         name: "银龄文社",
+        image: "assets/culture-club-detail.png",
         items: [
           {
             name: "国学经典",
@@ -180,6 +181,7 @@ const services = [
       },
       {
         name: "银龄焕彩",
+        image: "assets/culture-club-huancai-section.png",
         items: [
           {
             name: "智能生活讲师",
